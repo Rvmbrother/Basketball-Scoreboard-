@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: local("Cursed Timer ULiL"),
+    url("/CursedTimerUlil-Aznm.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #1b244a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items in the center */
+  width: 80%;
+}
+/*Score CSS*/
+.score-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.scoreEl {
+  font-family: Verdana;
+  font-size: 40px;
+  font-weight: 700;
+  color: #eeeeee;
+  margin: 0;
+}
+
+.score-background {
+  width: 155px;
+  height: 120px;
+  border-radius: 5px;
+  background: #080001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-family: "Cursed Timer ULiL";
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 126.67px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+.highlight {
+  border: 3px solid #ffffff; /* Example highlight color */
+}
+
+/*Adder CSS*/
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 155px;
+}
+
+.adderBtn {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL";
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adderBtn:hover {
+  background-color: rgba(154, 171, 216, 0.2);
+  color: #ffffff;
+}
+
+.adderBtnText {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%; /* Ensure it takes full height of the container */
+}
+/*RESET CSS*/
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resetBtn {
+  box-sizing: border-box;
+  width: 80px;
+  height: 45px;
+  border-radius: 5px;
+  font-family: "Cursed Timer ULiL";
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid #9aabd8;
+  color: #9aabd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#resetBtn:hover {
+  background-color: rgba(154, 171, 216, 0.2);
+  color: #ffffff;
+}

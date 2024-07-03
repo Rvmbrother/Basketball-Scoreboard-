@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-section home-score">
+        <h3 class="scoreHome-el">
+          <span class="scoreEl">HOME</span>
+        </h3>
+        <div class="score-background">
+          <div id="home-score" class="score">18</div>
+        </div>
+        <div class="button-container">
+          <button class="add1Point-el adderBtn" data-team="home">
+            <span class="adderBtnText">+1</span>
+          </button>
+          <button class="add2Points-el adderBtn" data-team="home">
+            <span class="adderBtnText">+2</span>
+          </button>
+          <button class="add3Points-el adderBtn" data-team="home">
+            <span class="adderBtnText">+3</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <div class="reset-container">
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+
+      <div class="score-section guest-score">
+        <h3 class="scoreGuest-el">
+          <span class="scoreEl">GUEST</span>
+        </h3>
+        <div class="score-background">
+          <div id="guest-score" class="score">10</div>
+        </div>
+        <div class="button-container">
+          <button class="add1Point-el adderBtn" data-team="guest">
+            <span class="adderBtnText">+1</span>
+          </button>
+          <button class="add2Points-el adderBtn" data-team="guest">
+            <span class="adderBtnText">+2</span>
+          </button>
+          <button class="add3Points-el adderBtn" data-team="guest">
+            <span class="adderBtnText">+3</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
